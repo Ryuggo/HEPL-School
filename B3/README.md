@@ -1,5 +1,5 @@
 # B3
 
-None of my projects for this year are done yet
+None of my projects for this year are finished yet
 
-I'll upload them once fully completed (Should be in January 2022)
+I'll upload them when fully completed (it should be done in January 2022)
