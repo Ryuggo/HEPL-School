@@ -1,0 +1,6 @@
+D:\Programmation\Ecole\Syllabus\B2\Développement Orienté Objets et MultiTâches\Windows - C#\Dossier\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\Programmation\Ecole\Syllabus\B2\Développement Orienté Objets et MultiTâches\Windows - C#\Dossier\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\Programmation\Ecole\Syllabus\B2\Développement Orienté Objets et MultiTâches\Windows - C#\Dossier\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+D:\Programmation\Ecole\Syllabus\B2\Développement Orienté Objets et MultiTâches\Windows - C#\Dossier\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\Programmation\Ecole\Syllabus\B2\Développement Orienté Objets et MultiTâches\Windows - C#\Dossier\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\Programmation\Ecole\Syllabus\B2\Développement Orienté Objets et MultiTâches\Windows - C#\Dossier\ClassLibrary\obj\Debug\ClassLibrary.pdb
