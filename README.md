@@ -1,11 +1,10 @@
 # School Projects
 
-I'll upload them once fully completed (Should be in January 2022)
+Here are all (almost) the projects I made for school<br>
+To get a better idea of how I'm coding now, you can go and check the B3 folder
 
-## Ps
+### Ps
 
-As you can see, there isn't a B1 folder
-
-Projects from this year were deleted as I didn't I'd need them ever again
-
-Anyway, they weren't as representative of how I'm working now as the more recent ones
+As you can see, there is no B1 folder<br>
+This year's projects were deleted as I didn't think I'd need them ever again<br>
+Either way, they weren't as representative of how I work now as the newer one
