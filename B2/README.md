@@ -4,6 +4,15 @@
 
 Application to draw basics shapes with different colors, and save/ load them
 
+### Html - PhP
+
+Manage your wine's collection: add new wines, buy them and write down the ones you drank<br>
+Everything is stored in a database using MySQL
+
+### JavaScript
+
+Load a list of students from a .xlsx file, and generate group with them, depending on certain criteria tweakable by the user
+
 ### Statistics
 
 Application to read datas from a file and draw them on a graphic
@@ -11,10 +20,6 @@ Application to read datas from a file and draw them on a graphic
 ### Thread
 
 Small video games with threads to handle different actions (clicks, score, animations, ..)
-
-### JavaScript
-
-Load a list of students from a .xlsx file, and generate group with them, depending on certain criteria tweakable by the user
 
 ### Unix
 
