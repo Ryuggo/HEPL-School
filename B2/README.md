@@ -4,6 +4,10 @@
 
 Application to draw basics shapes with different colors, and save/ load them
 
+### C#
+
+Lost
+
 ### JavaScript
 
 Load a list of students from a .xlsx file, and generate group with them, depending on certain criteria tweakable by the user
