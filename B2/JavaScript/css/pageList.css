@@ -1,0 +1,29 @@
+#Saved_Lists section {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+
+    font-size: larger;
+    margin: 20px 30% 20px 30%;
+}
+
+
+/*      Import Button       */
+#Import label {
+    padding: 10px 33% 10px 33%;
+    margin: 0;
+}
+
+
+/*      Files List          */
+#List {
+    display: flex;
+    flex-direction: column;
+}
+#List div {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}

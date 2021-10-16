@@ -1,0 +1,117 @@
+#Make_Group {
+    display: flex;
+    justify-content: center;
+}
+
+#Make_Group section {
+    font-size: large;
+    margin: 20px 20px 20px 20px;
+}
+
+
+/*      Group Settings      */
+#Settings {
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+
+    padding: 0 0 0 0;
+    margin: 20px 100px 20px 100px;
+}
+
+.group_space {
+    padding: 5px 10px 5px 10px;
+    margin: auto;
+}
+
+.number {
+    display: flex;
+    flex-direction: center;
+}
+div.sep {
+    padding: 0px 0px 0px 0px;
+    border-right: 1px solid silver;
+}
+
+#generate {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
+.roles {
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px black solid;
+    padding: 0px 0px 0px 8px;
+    margin: 0 0 5px 0;
+}
+.roles h6 {
+    text-decoration: underline;
+}
+
+#names_list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    
+}
+.names {
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px black solid;
+    padding: 0px 0px 0px 8px;
+    margin: 0 10px 0 0;
+
+}
+.names h6 {
+    margin: 0 10px 0 0;
+}
+
+#error_names {
+    display: none;
+    color: red;
+    font-size: smaller;
+}
+
+
+/*      Students List       */
+#Groups {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 20px 100px 20px 100px;
+}
+
+.list {
+    margin: 10px 0px 10px 7px;
+}
+
+#student_list {
+    overflow: auto;
+    padding: 0 7px 0 7px;
+}
+
+.student_group_name {
+    display: flex;
+    justify-content: center;
+
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+.student_group_name:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.student_group_name h5 {
+    text-decoration: underline;
+}
+
+.student_group {
+    display: none;
+}
