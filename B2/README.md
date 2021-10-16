@@ -1,12 +1,13 @@
 # B2
 
+### C#
+
+"Order" computer components and save the build you made<br>
+You can also add your own components to the list, and save everything in your account
+
 ### C++
 
 Application to draw basics shapes with different colors, and save/ load them
-
-### C#
-
-Lost
 
 ### Java
 
