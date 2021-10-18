@@ -27,4 +27,4 @@ Small video games with threads to handle different actions (clicks, score, anima
 
 ### Unix
 
-Pass commands, each individual can have his own command
+Order commands, each individual can have his own command
