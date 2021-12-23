@@ -2,7 +2,7 @@
 
 None of my projects for this year are finished yet
 
-I'll upload them when fully completed (it should be done in January 2022)
+I'll upload them when fully completed (it should be done in February2022)
 
 ### RTI (Internet Networks and Technologies)
 
