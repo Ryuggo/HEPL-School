@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ <xs:element name="movies">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element maxOccurs="unbounded" name="movie">
+     <xs:complexType>
+      <xs:sequence>
+       <xs:element name="id" type="xs:unsignedShort" />
+       <xs:element name="title" type="xs:string" />
+       <xs:element name="originalTitle" type="xs:string" />
+       <xs:element name="releaseDate" type="xs:date" />
+       <xs:element name="status" type="xs:string" />
+       <xs:element name="voteAverage" type="xs:decimal" />
+       <xs:element name="voteCount" type="xs:unsignedShort" />
+       <xs:element name="runtime" type="xs:unsignedShort" />
+       <xs:element name="certification" />
+       <xs:element name="posterPath" type="xs:string" />
+       <xs:element name="budget" type="xs:unsignedInt" />
+       <xs:element name="tagline" />
+       <xs:element name="genres">
+        <xs:complexType>
+         <xs:sequence>
+          <xs:element maxOccurs="unbounded" name="genre">
+           <xs:complexType>
+            <xs:sequence>
+             <xs:element name="idg" type="xs:unsignedInt" />
+             <xs:element name="nameg" type="xs:string" />
+            </xs:sequence>
+           </xs:complexType>
+          </xs:element>
+         </xs:sequence>
+        </xs:complexType>
+       </xs:element>
+       <xs:element name="directors">
+        <xs:complexType>
+         <xs:sequence>
+          <xs:element maxOccurs="unbounded" name="director">
+           <xs:complexType>
+            <xs:sequence>
+             <xs:element name="idd" type="xs:unsignedInt" />
+             <xs:element name="named" type="xs:string" />
+            </xs:sequence>
+           </xs:complexType>
+          </xs:element>
+         </xs:sequence>
+        </xs:complexType>
+       </xs:element>
+       <xs:element name="actors">
+        <xs:complexType>
+         <xs:sequence>
+          <xs:element maxOccurs="unbounded" name="actor">
+           <xs:complexType>
+            <xs:sequence>
+             <xs:element name="ida" type="xs:unsignedInt" />
+             <xs:element name="namea" type="xs:string" />
+             <xs:element name="charactera" type="xs:string" />
+            </xs:sequence>
+           </xs:complexType>
+          </xs:element>
+         </xs:sequence>
+        </xs:complexType>
+       </xs:element>
+      </xs:sequence>
+     </xs:complexType>
+    </xs:element>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+</xs:schema>

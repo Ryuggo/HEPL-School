@@ -1,0 +1,27 @@
+<!ELEMENT movies (movie*)>
+<!ELEMENT movie (id,title,originalTitle,releaseDate,status,voteAverage,voteCount,runtime,certification,posterPath,budget,tagline,genres,directors,actors)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT originalTitle (#PCDATA)>
+<!ELEMENT releaseDate (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT voteAverage (#PCDATA)>
+<!ELEMENT voteCount (#PCDATA)>
+<!ELEMENT runtime (#PCDATA)>
+<!ELEMENT certification (#PCDATA)>
+<!ELEMENT posterPath (#PCDATA)>
+<!ELEMENT budget (#PCDATA)>
+<!ELEMENT tagline (#PCDATA)>
+<!ELEMENT genres ((genre)*)>
+<!ELEMENT genre ((idg, nameg)*)>
+<!ELEMENT idg (#PCDATA)>
+<!ELEMENT nameg (#PCDATA)>
+<!ELEMENT directors ((director)*)>
+<!ELEMENT director ((idd, named)*)>
+<!ELEMENT idd (#PCDATA)>
+<!ELEMENT named (#PCDATA)>
+<!ELEMENT actors ((actor)*)>
+<!ELEMENT actor ((ida, namea, charactera)*)>
+<!ELEMENT ida (#PCDATA)>
+<!ELEMENT namea (#PCDATA)>
+<!ELEMENT charactera (#PCDATA)>
