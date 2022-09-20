@@ -1,0 +1,7 @@
+Host=10.59.22.37
+Port=50000
+Servers=5
+
+DB_port=3306
+DB=hugo
+DB_pwd=hugo

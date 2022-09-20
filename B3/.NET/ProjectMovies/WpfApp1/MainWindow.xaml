@@ -1,0 +1,63 @@
+﻿<Window x:Class="WPFMain.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFMain"
+        xmlns:dto="clr-namespace:DTO;assembly=DTO"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="360" MinWidth="600" Height="360" Width="600" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"></RowDefinition>
+            <RowDefinition Height="52*"></RowDefinition>
+            <RowDefinition Height="7*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Margin="107,1,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" x:Name="TBSearchMovie"/>
+            <Label Content="Search a movie : " HorizontalAlignment="Left" VerticalAlignment="Top" Height="29" Width="107" Margin="0,1,0,0"/>
+            <Button Content="Search" VerticalAlignment="Top" Height="29" Click="Button_Search_Click" Grid.Column="1" Margin="16,1,16,0"/>
+            <Button Content="?" ToolTip="You can use '&amp;','|','!' to make better search on movie and actors&#x0a;'&amp;' merges multiple requirement for the search&#x0a;'|' allows multiple search in one go&#x0a;'!' removes unwanted tag. It needs to be at the end&#x0a;You can have multiple reject, simply separe them with ','&#x0a;Ex: potter&amp;harr|pirates|rooms!fire,stone" Grid.Column="2" Height="32" VerticalAlignment="Top" HorizontalAlignment="Stretch" Width="46" Click="Button_Click" />
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <DataGrid x:Name="MovieDG" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding}">
+                <!---->
+                <DataGrid.Columns>
+                    <DataGridTextColumn x:Name="Id" Header="Id" Width="1*" Binding="{Binding IdMovie}"/>
+                    <!---->
+                    <DataGridTextColumn x:Name="Title" Header="Title" Width="4*" Binding="{Binding Title}"/>
+                    <!---->
+                    <DataGridTextColumn x:Name="Time" Header="Time" Width="1*" Binding="{Binding Runtime}"/>
+                    <!---->
+                    <DataGridTemplateColumn x:Name="View" Header="View more" Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Name="btnView" Content="View" Click="Button_View_Click"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+                <DataGrid.DataContext>
+                    <dto:MovieDTO/>
+                </DataGrid.DataContext>
+            </DataGrid>
+
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Button Name="btnPrevious" Grid.Column="0" Content="Previous (10)" Click="Button_Previous_Click"/>
+            <Button Name="btnNext" Grid.Column="1" Content="Next (10)" Click="Button_Next_Click"/>
+        </Grid>
+    </Grid>
+</Window>

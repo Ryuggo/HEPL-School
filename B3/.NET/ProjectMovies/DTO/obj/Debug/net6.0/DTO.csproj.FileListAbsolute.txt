@@ -1,0 +1,14 @@
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\bin\Debug\net6.0\DTO.deps.json
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\bin\Debug\net6.0\DTO.runtimeconfig.json
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\bin\Debug\net6.0\DTO.dll
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\bin\Debug\net6.0\DTO.pdb
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\obj\Debug\net6.0\DTO.dll
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\obj\Debug\net6.0\refint\DTO.dll
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\obj\Debug\net6.0\DTO.pdb
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\obj\Debug\net6.0\DTO.genruntimeconfig.cache
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DTO\obj\Debug\net6.0\ref\DTO.dll

@@ -1,0 +1,17 @@
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\bin\Debug\net6.0\APIContactor.deps.json
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\bin\Debug\net6.0\APIContactor.runtimeconfig.json
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\bin\Debug\net6.0\APIContactor.dll
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\bin\Debug\net6.0\APIContactor.pdb
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\bin\Debug\net6.0\DTO.dll
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\bin\Debug\net6.0\DTO.pdb
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\obj\Debug\net6.0\APIContactor.csproj.AssemblyReference.cache
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\obj\Debug\net6.0\APIContactor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\obj\Debug\net6.0\APIContactor.AssemblyInfoInputs.cache
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\obj\Debug\net6.0\APIContactor.AssemblyInfo.cs
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\obj\Debug\net6.0\APIContactor.csproj.CoreCompileInputs.cache
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\obj\Debug\net6.0\APIContactor.csproj.CopyComplete
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\obj\Debug\net6.0\APIContactor.dll
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\obj\Debug\net6.0\refint\APIContactor.dll
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\obj\Debug\net6.0\APIContactor.pdb
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\obj\Debug\net6.0\APIContactor.genruntimeconfig.cache
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\APIContactor\obj\Debug\net6.0\ref\APIContactor.dll

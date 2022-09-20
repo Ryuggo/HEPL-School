@@ -1,0 +1,121 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+body {
+    background-color: #1A1A1A;
+    margin: auto;
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1355cb;
+    padding: 36px 0 35px 0;
+}
+header a {
+    position: fixed;
+    top: 0;
+}
+
+.Body {
+    margin: 0 15%;
+    padding-top: 100px;
+    height: 100%;
+    background-color: #21346b;
+}
+
+.Flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+
+.Movie {
+    background-color: #e0e0e0;
+}
+
+.Detail {
+    height: 100%;
+    padding-bottom: 200px;
+}
+
+.DetailMovie {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+.DetailMovie img {
+    min-width: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.DetailActor h3 {
+   margin-right: 20px;
+}
+
+.DetailWriteComment {
+    width:70%;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.CommentTxt {
+    width: 65%;
+    min-height: 50px;
+    padding: 5px;
+}
+.CommentInt {
+    min-width: 25px;
+    width: 5%;
+}
+.CommentBtn {
+    max-width: 125px;
+    width: 15%
+}
+
+.ListComments {
+    background-color: #e0e0e0;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+.AddedCommentInfo {
+    background-color: forestgreen;
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    width: 40%;
+}
+
+.button {
+    font: bold 14px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 4px 12px 4px 12px;
+    border-top: 1px solid #CCCCCC ;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 4px;
+}

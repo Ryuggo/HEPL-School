@@ -1,0 +1,78 @@
+﻿<Window x:Class="WPFSettings.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFSettings"
+        xmlns:dto="clr-namespace:DTO;assembly=DTO"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="600" MinWidth="800" Height="600" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="25*"></RowDefinition>
+            <RowDefinition Height="6*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Image x:Name="PosterPath" HorizontalAlignment="Left" Height="303" Margin="50,24,0,0" VerticalAlignment="Top" Width="291"/>
+
+            <Label x:Name="OriginalTitle" Content="Original Title" HorizontalAlignment="Stretch" Margin="400,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="400"/>
+            <Label x:Name="Title" Content="Title" Margin="400,44,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="ReleaseDate" Content="Release Date" Margin="400,75,200,0" VerticalAlignment="Top"/>
+
+            <Label x:Name="Runtime" Content="Runtime : " Margin="400,106,200,0" VerticalAlignment="Top"/>
+            <Label x:Name="Status" Content="Status : " Margin="600,106,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="VoteAverage" Content="Vote Average : " Margin="400,137,200,0" VerticalAlignment="Top"/>
+            <Label x:Name="VoteCount" Content="Vote Count : " Margin="600,137,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="Certification" Content="Certification : " Margin="400,168,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="Budget" Content="Budget : " Margin="400,199,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="Tagline" Content="Tagline : " Margin="400,230,0,0" VerticalAlignment="Top"/>
+
+            <Label Content="Actors : " Margin="400,261,250,0" VerticalAlignment="Top"/>
+            <ComboBox x:Name="Actors" HorizontalAlignment="Left" Margin="555,264,0,0" VerticalAlignment="Top" Width="215" SelectedIndex="0" ItemsSource="{Binding Name}">
+                <ComboBox.DataContext>
+                    <dto:ActorDTO/>
+                </ComboBox.DataContext>
+            </ComboBox>
+            <Label Content="Types : " Margin="400,292,250,0" VerticalAlignment="Top"/>
+            <ComboBox x:Name="Types" HorizontalAlignment="Left" Margin="555,296,0,0" VerticalAlignment="Top" Width="215" SelectedIndex="0" ItemsSource="{Binding Name}">
+                <ComboBox.DataContext>
+                    <dto:MovieTypeDTO/>
+                </ComboBox.DataContext>
+            </ComboBox>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Label Content="Comment list :" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <DataGrid x:Name="CommentsDG" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding}" SelectionChanged="CommentsDG_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn x:Name="Id" Header="Id" Width="2*" Binding="{Binding IdComment}"/>
+                    <DataGridTextColumn x:Name="Comment" Header="Comment" Width="20*" Binding="{Binding Text}"/>
+                    <DataGridTextColumn x:Name="Score" Header="Score" Width="2*" Binding="{Binding Evaluation}"/>
+                    <DataGridTextColumn x:Name="IsValid" Header="Valid" Width="2*" Binding="{Binding Validate}"/>
+                </DataGrid.Columns>
+                <DataGrid.DataContext>
+                    <dto:CommentDTO/>
+                </DataGrid.DataContext>
+            </DataGrid>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" x:Name="Valid" Content="Valid/ Unvalid" Click="Click_Valid_Comment"/>
+            <Button Grid.Column="1" x:Name="Delete" Content="Delete" Click="Click_Delete_Comment"/>
+            <Button Grid.Column="2" x:Name="Modify" Content="Modify" Click="Click_Modify_Comment"/>
+            <TextBox Grid.Column="3" x:Name="TComment"/>
+        </Grid>
+    </Grid>
+</Window>

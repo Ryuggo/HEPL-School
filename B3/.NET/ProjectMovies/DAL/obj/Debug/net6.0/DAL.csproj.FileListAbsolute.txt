@@ -1,0 +1,17 @@
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\bin\Debug\net6.0\DAL.dll
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\bin\Debug\net6.0\DAL.pdb
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\bin\Debug\net6.0\DTO.dll
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\bin\Debug\net6.0\DTO.pdb
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\obj\Debug\net6.0\DAL.dll
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\obj\Debug\net6.0\refint\DAL.dll
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\obj\Debug\net6.0\DAL.pdb
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+D:\Programmation\Ecole\CSharpB3\ProjectMovies\DAL\obj\Debug\net6.0\ref\DAL.dll

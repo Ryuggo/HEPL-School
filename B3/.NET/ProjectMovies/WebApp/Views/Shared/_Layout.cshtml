@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>WebApp - @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+</head>
+<body>
+<header>
+    <a class="navbar-brand" href="../Home/Index?">
+        <img src="https://miro.medium.com/max/400/1*Y9-6_bh5a00rJWWoQ28NMQ.jpeg" style="max-width: 100px; max-height: 100px" />
+    </a>
+
+    <form class="Flex IndexSearch" action="../Home/Index?" method="get" style="margin:0 25%; justify-content: space-between; height: 30px;">
+        <input class="SearchTxt" type="text" id="search" name="search" placeholder="Search movies or actors" style="width: 100%;">
+        <input class="SearchBtn" type="submit" value="Search">
+        <p style="margin: 0 15px; padding: 5px 5px; background-color: lightgray; border-radius: 20%;"
+            title="You can use '&' , '|' , '!' to make better search on movie and actors.&#10;&#10;    '&' : merges multiple requirement for the search.&#10;    '|'   : allows multiple search in one go.&#10;    '!'   : removes unwanted tag. It needs to be at the end.&#10;You can have multiple reject, simply separe them with ','&#10;&#10;Ex: potter&harr|pirates|rooms!fire,stone">
+            ?
+        </p>
+    </form>
+</header>
+
+@RenderBody()
+
+<!--
+<footer class="border-top footer text-muted">
+    <div class="container" style="position:center;">
+        &copy; 2022 - WebApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>
+-->
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
